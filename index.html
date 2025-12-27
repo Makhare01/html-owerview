@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Overview</h1>
+      <p>
+        This page serves as a summary of all topics covered in the HTML module.
+        Scroll down to review the materials and video lectures.
+      </p>
+
+      <hr />
+    </header>
+
+    <nav>
+      <h3>Quick Navigation</h3>
+
+      <ol>
+        <li>
+          <a href="#info"
+            >Introduction to Web Development & Introduction to HTML</a
+          >
+        </li>
+        <li>
+          <a href="#vsc">Git / Github / Github Classroom</a>
+        </li>
+        <li>
+          <a href="#college-site">College Website Preview</a>
+        </li>
+      </ol>
+    </nav>
+
+    <br />
+
+    <main>
+      <section id="info">
+        <fieldset>
+          <legend>
+            <h2>1. Introduction to Web Development & Introduction to HTML</h2>
+          </legend>
+
+          <h3>Topics Covered:</h3>
+
+          <ul>
+            <li>Internet / Web / Domain / DNS</li>
+            <li>Browser</li>
+            <li>Request / Response</li>
+          </ul>
+
+          <h3>Lecture Video:</h3>
+
+          <!-- YouTube Iframe -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/gGXsy7kOcJk"
+            title="Introduction to Web Development & Introduction to HTML"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </fieldset>
+      </section>
+
+      <section id="vsc">
+        <fieldset>
+          <legend>
+            <h2>2. Image, link and media elements</h2>
+          </legend>
+
+          <h3>Topics Covered:</h3>
+
+          <ul>
+            <li>Version Control Systems (VCS)</li>
+            <li>Git (Local Tool)</li>
+            <li>Github</li>
+            <li>Github Classroom</li>
+          </ul>
+
+          <h3>Lecture Video:</h3>
+
+          <!-- YouTube Iframe -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed?v=fvhASznDOaY&list=PLIiZ2bPKUPrcEnu8152Wtxqdmq3DJSXrW&index=4"
+            title="Introduction to Web Development & Introduction to HTML"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </fieldset>
+      </section>
+      <br />
+      <br />
+
+      <hr />
+
+      <br />
+      <br />
+
+      <section id="college-site">
+        <h2>10x Website Preview</h2>
+        <p>Below is a live view of our 10x website.</p>
+
+        <iframe
+          src="https://10x.edu.ge/"
+          width="100%"
+          height="800"
+          title="10x Website Frame"
+          style="border: 2px solid grey"
+        ></iframe>
+      </section>
+
+      <section id="contact">
+        <h2>Contact the Instructor</h2>
+        <p>
+          If you have any questions regarding the topics above, please fill out
+          the form below.
+        </p>
+        <form>
+          <fieldset>
+            <legend><p>Student Information</p></legend>
+
+            <div>
+              <label for="frst-name">First Name:</label> <br />
+              <input type="text" id="frst-name" />
+            </div>
+            <br />
+
+            <div>
+              <label for="last-name">Last Name:</label> <br />
+              <input type="text" id="last-name" />
+            </div>
+            <br />
+
+            <div>
+              <label for="email">College Email:</label> <br />
+              <input type="email" id="email" placeholder="info@gmail.com" />
+            </div>
+
+            <div>
+              <label for="gender">Gender:</label>
+
+              <div>
+                <label>Male</label>
+                <input type="radio" name="gender" />
+              </div>
+
+              <div>
+                <label>Female</label>
+                <input type="radio" name="gender" />
+              </div>
+            </div>
+          </fieldset>
+
+          <br />
+          <br />
+
+          <fieldset>
+            <legend>Message Details</legend>
+
+            <label for="topics">Topics:</label><br />
+            <select name="topics" id="topics">
+              <option value="intro" selected>HTML Introduction</option>
+              <option value="VSC">Git/ GitHub/ GitHub Classroom</option>
+              <option value="forms">Forms</option>
+            </select>
+
+            <br />
+            <br />
+
+            <label for="message">Your Message:</label> <br />
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              placeholder="Please write a message..."
+            ></textarea>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
